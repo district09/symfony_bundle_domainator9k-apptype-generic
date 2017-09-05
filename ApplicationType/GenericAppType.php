@@ -2,7 +2,7 @@
 
 namespace DigipolisGent\Domainator9k\AppTypes\GenericBundle\ApplicationType;
 
-use Digip\AppDeployBundle\Entity\BaseAppType;
+use DigipolisGent\Domainator9k\CoreBundle\Entity\BaseAppType;
 use DigipolisGent\Domainator9k\AppTypes\GenericBundle\Entity\GenericSettings;
 use DigipolisGent\Domainator9k\AppTypes\GenericBundle\Form\GenericSettingsType;
 use Digip\DeployBundle\Entity\Settings;
