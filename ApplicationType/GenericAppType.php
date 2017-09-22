@@ -5,8 +5,8 @@ namespace DigipolisGent\Domainator9k\AppTypes\GenericBundle\ApplicationType;
 use DigipolisGent\Domainator9k\CoreBundle\Entity\BaseAppType;
 use DigipolisGent\Domainator9k\AppTypes\GenericBundle\Entity\GenericSettings;
 use DigipolisGent\Domainator9k\AppTypes\GenericBundle\Form\GenericSettingsType;
-use Digip\DeployBundle\Entity\Settings;
-use Digip\DeployBundle\Entity\AppEnvironment;
+use DigipolisGent\Domainator9k\CoreBundle\Entity\Settings;
+use DigipolisGent\Domainator9k\CoreBundle\Entity\AppEnvironment;
 
 class GenericAppType extends BaseAppType
 {
