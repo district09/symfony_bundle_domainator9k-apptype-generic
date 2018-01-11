@@ -25,4 +25,15 @@ class GenericApplication extends AbstractApplication
     {
         return self::TYPE;
     }
+
+    /**
+     * @return array
+     */
+    public static function getTemplateReplacements(): array
+    {
+        $templateReplacements = parent::getTemplateReplacements();
+        $templateReplacements['installProfile()'] =  'getInstallProfile()';
+
+        return $templateReplacements;
+    }
 }
