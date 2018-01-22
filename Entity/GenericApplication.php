@@ -21,7 +21,7 @@ class GenericApplication extends AbstractApplication
     /**
      * @return string
      */
-    public function getType()
+    public static function getType()
     {
         return self::TYPE;
     }
