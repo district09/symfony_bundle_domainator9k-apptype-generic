@@ -14,6 +14,7 @@ use Symfony\Component\Form\Extension\Core\Type\FormType;
  * @package DigipolisGent\Domainator9k\AppTypes\GenericBundle\Entity
  *
  * @ORM\Entity()
+ * @ORM\Table(name="generic_application")
  */
 class GenericApplication extends AbstractApplication
 {
