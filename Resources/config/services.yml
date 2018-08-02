@@ -1,5 +1,0 @@
-services:
-    digip_deploy.application_type.generic:
-        class: DigipolisGent\Domainator9k\AppTypes\GenericBundle\ApplicationType\GenericAppType
-        tags:
-            - { name: digip_deploy.type, slug: 'generic' }

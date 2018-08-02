@@ -1,9 +1,0 @@
-name: 'Generic'
-slug: generic
-cron:
-public_folder: ''
-database_required: false
-
-additional_config:
-
-directories: []
