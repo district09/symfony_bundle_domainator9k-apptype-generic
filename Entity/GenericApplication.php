@@ -12,10 +12,9 @@ use Symfony\Component\Form\Extension\Core\Type\FormType;
 /**
  * Class GenericApplication
  * @package DigipolisGent\Domainator9k\AppTypes\GenericBundle\Entity
- *
- * @ORM\Entity()
- * @ORM\Table(name="generic_application")
  */
+#[ORM\Table(name: 'generic_application')]
+#[ORM\Entity]
 class GenericApplication extends AbstractApplication
 {
 
